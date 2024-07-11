@@ -1,0 +1,29 @@
+{
+  "name": "lms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "start": "ts-node assignment-day-1.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "20.14.9",
+    "rimraf": "5.0.8",
+    "typescript": "5.5.3",
+    "vitest": "^2.0.1"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "dotenv": "16.4.5",
+    "fast-csv": "5.0.1",
+    "globals": "^15.8.0",
+    "mysql2": "3.10.2"
+  }
+}
